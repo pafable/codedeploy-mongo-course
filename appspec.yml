@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /mongo.repo
-  - destination: /etc/yum.repos.d/mongo.repo
+    destination: /etc/yum.repos.d
 hooks:
   BeforeInstall:
     - location: scripts/before.sh
